@@ -98,10 +98,6 @@ class Window(QWidget):
             text = num2words(text)
             self.textarea.setText(text)
 
-
-        
-
-
 app = QApplication([])
 win = Window()
 app.exec_()
